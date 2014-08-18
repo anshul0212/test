@@ -221,7 +221,7 @@ public class FragmentAddDetails extends Fragment implements OnDateSetListener,On
 	    	EditText etName = (EditText)getActivity().findViewById(R.id.enter_name_text);
 	    	etName.setText(user.get("name"));
 	    	
-	    	EditText etDate = (EditText)getActivity().findViewById(R.id.date_of_birth);
+	    	EditText etDate = (EditText)getActivity().findViewById(R.id.date_of_birth_text);
 	    	etDate.setText(user.get("dob"));
 	    	dismissProgress();
 	    	
